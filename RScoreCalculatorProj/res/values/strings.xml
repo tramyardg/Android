@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RScoreCalculatorApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+<string name="RscoreTV">R Score Calculator</string>
+<string name="YourMarkTxt">Your mark</string>
+<string name="ClassAverageTxt">Class Average</string>
+<string name="StandardDevTxt">Standard Deviation</string>
+<string name="HighSchoolAvgTxt">High School Average</string>
+<string name="YourRScoreTxt">Your R Score</string>
+<string name="CalculateTxt">Calculate</string>
+<string name="ClearTxt">Reset</string>
+<string name="ExitTxt">Exit</string>
+</resources>

@@ -22,26 +22,7 @@ public class Calculation {
 		
 		double normalHourWork = this.regularHourWorkAmount(salesInfo.getHoursWorked()); 
 		
-		/*		/----------SALARY AMOUNT REGULAR-------------
-		The formulas to compute the salary amount is: 
-		
-		Salary Amount = Basic Salary Amount + Bonus Salary Amount 	where
-		Bonus Salary Amount = Bonus Salary Percent * Total Sales Amount
-		
-		For example, if the total sales amount is $ 1000.00 then the salary amount is  
-		salary amount = 400 + 1000 * (0.10)
-					  = 500.*/
-/*
- * 		/----------SALARY AMOUNT OVERTIME-------------
-		For example, if the total sales amount is $ 200.00 and the number of worked hours is 45,  
-		regular salary = regular number of worked hours * hourly rate
-					   = 40 * 10 = 400
-		overtime amount = overtime hours * 1.5 * hourly rate
-						= 5 * 1.5 * 10 = 75 	and
-		salary amount = regular salary + overtime pay 
-					  = 400 + 75 = 475
- */
-		// if your sales less than $ 300, they will count salary hour based
+
 		double salaryAmount;
 		if (salesInfo.getSalesAmount() <= Interface.SALES_AMOUT_300) {
 			salaryAmount = basicAmnt + overtimeAmount + bonusSalaryAmount + normalHourWork;
